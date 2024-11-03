@@ -67,7 +67,7 @@ function intermission(intermissionTime: number, minimumPlayers: number)
 			task.wait(1)
 		else
 			setAllPlayersText("Waiting for players...")
-			break
+			return
 		end
 	end
 	
